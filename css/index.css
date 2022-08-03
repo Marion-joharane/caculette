@@ -10,6 +10,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: linear-gradient(to top, rgb(2, 29, 80) 0%, #bfe3f8 100%);
 }
 
 #calculatrice {
@@ -28,8 +29,9 @@ body {
 	display: flex;
 	justify-content: flex-end; /* aligner à droite */
 	padding: 5px;
-	font-size: 30px;
+	font-size: 15px;
 	box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.651);
+	color: aliceblue;
 }
 
 .touches {
